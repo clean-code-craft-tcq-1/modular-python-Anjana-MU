@@ -3,11 +3,7 @@ from ReferenceManual import printReferenceManual
 import ColorPair_test_data as td
 
 if __name__ == '__main__':
-  td.test_number_to_pair(4, 'White', 'Brown')
-  td.test_number_to_pair(5, 'White', 'Slate')
-  td.test_pair_to_number('Black', 'Orange', 12)
-  td.test_pair_to_number('Violet', 'Slate', 25)
-  td.test_pair_to_number('Red', 'Orange', 7)
+  td.testfunctionalities()
   print('Reference Manual')
   printReferenceManual(createReferenceManual())  
   print('Done :)')
