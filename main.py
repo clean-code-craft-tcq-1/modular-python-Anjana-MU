@@ -1,4 +1,3 @@
-
 from ColorPair_test_data import *
 from ReferenceManual import *
 
