@@ -1,12 +1,13 @@
-from ReferenceManual import *
-from ColorPair_test_data import *
+from ReferenceManual import createReferenceManual
+from ReferenceManual import printReferenceManual
+from ColorPair_test_data import td
 
 if __name__ == '__main__':
-  test_number_to_pair(4, 'White', 'Brown')
-  test_number_to_pair(5, 'White', 'Slate')
-  test_pair_to_number('Black', 'Orange', 12)
-  test_pair_to_number('Violet', 'Slate', 25)
-  test_pair_to_number('Red', 'Orange', 7)
+  td.test_number_to_pair(4, 'White', 'Brown')
+  td.test_number_to_pair(5, 'White', 'Slate')
+  td.test_pair_to_number('Black', 'Orange', 12)
+  td.test_pair_to_number('Violet', 'Slate', 25)
+  td.test_pair_to_number('Red', 'Orange', 7)
   print('Reference Manual')
   printReferenceManual(createReferenceManual())  
   print('Done :)')
