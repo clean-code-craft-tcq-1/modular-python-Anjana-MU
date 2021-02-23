@@ -1,4 +1,5 @@
-from ColorPair_get_data import *
+from ColorPair_get_data import get_color_from_pair_number
+from ColorPair_get_data import get_pair_number_from_color
    
 def test_number_to_pair(pair_number,
                         expected_major_color, expected_minor_color):
