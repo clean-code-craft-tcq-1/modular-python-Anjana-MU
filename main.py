@@ -3,7 +3,7 @@ from ReferenceManual import printReferenceManual
 import ColorPair_test_data as td
 
 if __name__ == '__main__':
-  td.testfunctionalities()
+  td.test_functionalities()
   print('Reference Manual')
   printReferenceManual(createReferenceManual())  
   print('Done :)')
