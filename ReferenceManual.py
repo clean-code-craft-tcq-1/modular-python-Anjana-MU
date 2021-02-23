@@ -1,4 +1,5 @@
 import ColorPair_get_data as gd
+from ColorPair import color_pair_to_string
 
 def createReferenceManual():
     pair_number_start_index = 1
@@ -6,7 +7,7 @@ def createReferenceManual():
     reference_manual = []    
     for pair_number in range(pair_number_start_index, pair_number_end_index):
         color_pair = gd.get_color_from_pair_number(pair_number)
-        formatted_colorpair = gd.color_pair_to_string(color_pair[0], color_pair[1])        
+        formatted_colorpair = color_pair_to_string(color_pair[0], color_pair[1])        
         reference_manual.append ("{:<10} {:<10} ".format(pair_number, formatted_colorpair))  
     return reference_manual
 
