@@ -1,12 +1,10 @@
 from ColorPair_get_data import *
 from main import *
 
-
 def createReferenceManual():
     pair_number_start_index = 1
     pair_number_end_index = 26
-    reference_manual = []
-    
+    reference_manual = []    
     for pair_number in range(pair_number_start_index, pair_number_end_index):
         color_pair = get_color_from_pair_number(pair_number)
         formatted_colorpair = color_pair_to_string(color_pair[0], color_pair[1])        
