@@ -1,5 +1,4 @@
-from ReferenceManual import printReferenceManual
-from ReferenceManual import createReferenceManual
+from ReferenceManual import *
 from ColorPair_test_data import *
 
 if __name__ == '__main__':
@@ -8,5 +7,6 @@ if __name__ == '__main__':
   test_pair_to_number('Black', 'Orange', 12)
   test_pair_to_number('Violet', 'Slate', 25)
   test_pair_to_number('Red', 'Orange', 7)
+  print('Reference Manual')
   printReferenceManual(createReferenceManual())  
   print('Done :)')
