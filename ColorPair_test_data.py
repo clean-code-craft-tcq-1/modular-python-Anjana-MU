@@ -1,7 +1,7 @@
 from ColorPair_get_data import get_color_from_pair_number
 from ColorPair_get_data import get_pair_number_from_color
 
-def test_functionalities()
+def test_functionalities():
   test_number_to_pair(4, 'White', 'Brown')
   test_number_to_pair(5, 'White', 'Slate')
   test_pair_to_number('Black', 'Orange', 12)
