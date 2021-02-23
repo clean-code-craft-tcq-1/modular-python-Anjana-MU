@@ -1,6 +1,6 @@
 from ReferenceManual import createReferenceManual
 from ReferenceManual import printReferenceManual
-from ColorPair_test_data import td
+import ColorPair_test_data as td
 
 if __name__ == '__main__':
   td.test_number_to_pair(4, 'White', 'Brown')
