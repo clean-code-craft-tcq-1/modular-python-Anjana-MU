@@ -1,5 +1,5 @@
-from main import MAJOR_COLORS
-from main import MINOR_COLORS
+from ColorPair import MAJOR_COLORS
+from ColorPair import MINOR_COLORS
 
 def color_pair_to_string(major_color, minor_color):
   return f'{major_color} {minor_color}'
