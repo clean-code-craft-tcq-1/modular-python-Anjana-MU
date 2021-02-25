@@ -1,9 +1,6 @@
 from ColorPair import MAJOR_COLORS
 from ColorPair import MINOR_COLORS
 
-def color_pair_to_string(major_color, minor_color):
-  return f'{major_color} {minor_color}'
-
 def get_color_from_pair_number(pair_number):
   zero_based_pair_number = pair_number - 1
   major_index = zero_based_pair_number // len(MAJOR_COLORS)
